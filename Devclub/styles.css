@@ -1,0 +1,133 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing:border-box;
+    font-family: "Poppins" sans-serif;
+}
+
+.menu-superior{
+    font-weight: 400px;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    letter-spacing: 0.875px;
+    color: #17233D;
+    margin-right: 32px;
+    cursor: pointer;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 62px;
+    line-height: 82px;
+    letter-spacing: 0.596154px;
+    color: #161A49;
+    width: 493px;
+}
+
+p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 33px;
+    letter-spacing: 0.5px;
+    color: #4B505A;
+    width: 493px;
+    margin-top: 47px;
+    margin-bottom: 55px;
+}
+
+
+img {
+    margin: 163px 0 0 123px; 
+    display: inline-block;
+}
+
+div {
+    display: inline-block;
+    margin-left: 105px;
+    width: 493px;
+}
+
+.button-sing-in {
+    font-weight: 100;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 1px;
+    color: #FFFFFF;
+    background: #4CB538;
+    border: 20px solid #4CB538;
+    border-radius: 8px;
+    cursor:pointer;
+}
+
+
+
+ .link-lear-more {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: 1px;
+    color: #6FBF44;
+    cursor: pointer;
+}
+
+header {
+    margin-top: 47px ;
+    margin-left:42px;
+}
+
+@media screen and (max-width: 1100px)  {
+    .menu-superior {
+        display:none;
+    }
+
+    div {
+        padding: 0;
+        margin: 0;
+        text-align: center;
+        margin: 124px 55px 616px 57px;
+    }
+
+    .button-sing-in {
+        position: absolute;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 18px;
+        letter-spacing: 1px;
+        color: #FFFFFF;
+        margin-left: 420px;
+        border-radius: 10px;
+        width: auto;
+    }
+
+    img {
+        position: absolute;
+        height: 300px;
+        margin: 700px 100px;
+        width: 400px;
+
+    }
+
+    h1 {
+        position: static;
+        width: 500px;
+        height: 30%;
+        text-align: center;
+        
+    }
+
+    p {
+        text-align: center;
+        position: static;
+        margin: 50px 10px 29px 26px;
+        font-size: 20px;
+    }
+
+    .link-lear-more {
+        margin-top: 26px;
+        text-align: center;
+        font-size: 20px; 
+    }
+}
+    
+
